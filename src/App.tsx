@@ -13,7 +13,7 @@ export default class App extends React.Component {
           UIManager.dispatchViewManagerCommand(
             findNodeHandle(this.refs.arCoreView),
             "CMD_RUN_SET_OBJECT",
-            ["001", "aimm.glb"]);
+            ["Aim", "aim.fbx"]);
         }} style={styles.buttonAction}>
           <Text>Add Object</Text>
         </TouchableOpacity>
